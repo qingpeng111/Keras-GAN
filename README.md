@@ -2,6 +2,150 @@
     <img src="assets/keras_gan.png" width="480"\>
 </p>
 
+GAN
+
+实现最原始的，基于多层感知器构成的生成器和判别器，组成的生成对抗网络模型（Generative Adversarial）。
+
+参考论文：《Generative Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/gan/gan.py
+
+ 
+
+AC-GAN
+
+实现辅助分类-生成对抗网络（Auxiliary Classifier Generative Adversarial Network）。
+
+参考论文：《Conditional Image Synthesis With Auxiliary Classifier GANs》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/acgan/acgan.py
+
+ 
+
+BiGAN
+
+实现双向生成对抗网络（Bidirectional Generative Adversarial Network）。
+
+参考论文：《Adversarial Feature Learning》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/bigan/bigan.py
+
+ 
+
+BGAN
+
+实现边界搜索生成对抗网络（Boundary-Seeking Generative Adversarial Networks）。
+
+参考论文：《Boundary-Seeking Generative Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/bgan/bgan.py
+
+ 
+
+CC-GAN
+
+实现基于上下文的半监督生成对抗网络（Semi-Supervised Learning with Context-Conditional Generative Adversarial Networks）。
+
+参考论文：《Semi-Supervised Learning with Context-Conditional Generative Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/ccgan/ccgan.py
+
+ 
+
+CoGAN
+
+实现耦合生成对抗网络（Coupled generative adversarial networks）。
+
+参考论文：《Coupled Generative Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/cogan/cogan.py
+
+ 
+
+CycleGAN
+
+实现基于循环一致性对抗网络（Cycle-Consistent Adversarial Networks）的不成对的Image-to-Image 翻译。
+
+参考论文：《Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/cyclegan/cyclegan.py
+
+ 
+
+DCGAN
+
+实现深度卷积生成对抗网络（Deep Convolutional Generative Adversarial Network）。
+
+参考论文：《Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/dcgan/dcgan.py
+
+ 
+
+DualGAN
+
+实现对偶生成对抗网络（DualGAN),基于无监督的对偶学习进行Image-to-Image翻译。
+
+参考论文：《DualGAN: Unsupervised Dual Learning for Image-to-Image Translation》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/dualgan/dualgan.py
+
+ 
+
+InfoGAN
+
+实现的信息最大化的生成对抗网络（InfoGAN），基于信息最大化生成对抗网络的可解释表示学习。
+
+参考论文：《InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/infogan/infogan.py
+
+ 
+
+LSGAN
+
+实现最小均方误差的生成对抗网络（Least Squares Generative Adversarial Networks）。
+
+参考论文：《Least Squares Generative Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/lsgan/lsgan.py
+
+ 
+
+SGAN
+
+实现半监督生成对抗网络（Semi-Supervised Generative Adversarial Network）。
+
+参考论文：《Semi-Supervised Learning with Generative Adversarial Networks》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/sgan/sgan.py
+
+ 
+
+WGAN
+
+实现 Wasserstein GAN。
+
+参考论文：《Wasserstein GAN》
+
+代码地址：https://github.com/eriklindernoren/Keras-GAN/blob/master/wgan/wgan.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Keras-GAN
 Collection of Keras implementations of Generative Adversarial Networks (GANs) suggested in research papers. These models are in some cases simplified versions of the ones ultimately described in the papers, but I have chosen to focus on getting the core ideas covered instead of getting every layer configuration right. Contributions and suggestions of GAN varieties to implement are very welcomed.
 
